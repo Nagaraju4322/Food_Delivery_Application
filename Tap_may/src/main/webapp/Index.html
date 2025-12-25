@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome | Foodie App</title>
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+	rel="stylesheet" />
+<style>
+/* 🌈 Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-image:
+		url("https://img.freepik.com/free-photo/turkish-stuffed-eggplants-with-ground-beef-vegetables-baked-with-tomato-sauce_2829-11002.jpg?semt=ais_hybrid&w=740&q=80");
+	background-size: cover; /* Ensures image covers entire area */
+	background-repeat: no-repeat; /* Prevents repeating */
+	background-position: center; /* Centers the image */
+	background-attachment: fixed;
+	/* Keeps image still on scroll (optional) */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+	text-align: center;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 2.8rem;
+	font-weight: 700;
+	color: orange;
+	margin-bottom: 20px;
+	animation: fadeInDown 0.8s ease;
+}
+
+@keyframes fadeInDown {from { opacity:0;
+	transform: translateY(-30px);
+}
+
+to {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(15px);
+	border-radius: 20px;
+	padding: 40px;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+	animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {from { opacity:0;
+	transform: translateY(40px);
+}
+
+to {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+}
+.card {
+	flex: 1 1 250px;
+	background: #fff;
+	border-radius: 16px;
+	padding: 25px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 10px 25px rgba(255, 111, 97, 0.3);
+}
+
+h2 {
+	color: #ff6f61;
+	margin-bottom: 15px;
+	font-size: 1.4rem;
+}
+
+button {
+	background: linear-gradient(135deg, #ff6f61, #ff9966);
+	color: #fff;
+	border: none;
+	border-radius: 30px;
+	padding: 12px 28px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+button:hover {
+	background: linear-gradient(135deg, #ff9966, #ff6f61);
+	transform: scale(1.05);
+}
+
+footer {
+	margin-top: 40px;
+	font-size: 14px;
+	color: #555;
+	opacity: 0.8;
+}
+
+@media ( max-width : 600px) {
+	h1 {
+		font-size: 2rem;
+	}
+	.container {
+		padding: 25px;
+		gap: 20px;
+	}
+	.card {
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+	<h1>🍴 Welcome to Foodie App</h1>
+
+	<div class="container">
+		<div class="card">
+			<h2>Already have an account?</h2>
+			<a href="Login.jsp"><button>Login</button></a>
+		</div>
+
+		<div class="card">
+			<h2>New User? Register Here</h2>
+			<a href="Register.html"><button>Register</button></a>
+		</div>
+	</div>
+
+	<footer>
+		<p>© 2025 Foodie App | Crafted with ❤️ for hungry hearts</p>
+	</footer>
+</body>
+</html>
