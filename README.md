@@ -100,29 +100,6 @@ Orders
 
 Database access is handled using JDBC with DAO pattern
 
-# ⚙️ Setup & Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/Food_Delivery_Application.git
-
-
-# Import the project into:
-
-Eclipse
-
-Configure MySQL:
-
-Create database and required tables
-
-Update database credentials in the project
-
-Deploy on Apache Tomcat Server
-
-Run the application and access:
-
-http://localhost:8080/Food_Delivery_Application
-
 # 🔒 Security Considerations
 
 Session management for user authentication
