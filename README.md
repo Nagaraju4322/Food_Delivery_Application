@@ -1,39 +1,79 @@
-# 🍽️ Food Delivery Application
-# 📌 Overview
+🍽️ Food Delivery Application
 
-The Food Delivery Application is a full-stack Java web application that allows users to browse restaurants, explore menus, add food items to a cart, and place orders efficiently.
-The application is built using Java Servlets, deployed on Apache Tomcat, and uses MySQL for persistent data storage.
+A Full-Stack Java Web Application
 
-To maintain clean code architecture and scalability, the project follows the DAO (Data Access Object) Design Pattern along with the MVC architecture.
+📌 Project Overview
 
-# 🚀 Features
+The Food Delivery Application is a full-stack Java web application designed to simulate a real-world online food ordering system. It enables users to discover restaurants, browse menus, manage a shopping cart, and place orders through a structured and scalable architecture.
 
-🔐 User Registration and Login
+The application is developed using Java Servlets, deployed on Apache Tomcat, and backed by a MySQL relational database. To ensure maintainability, scalability, and clean separation of concerns, the project strictly follows the MVC (Model–View–Controller) architecture combined with the DAO (Data Access Object) design pattern.
 
-🏪 View Available Restaurants
+This project demonstrates practical backend development skills commonly expected in entry-level to mid-level Java developer roles.
 
-📋 Browse Restaurant Menus
+🚀 Key Features
 
-🛒 Add / Remove Items from Cart
+🔐 User Authentication
 
-🧾 Order Summary and Checkout
+Secure user registration and login
 
-💾 MySQL Database Integration
+Session-based authentication
 
-🧱 DAO Design Pattern Implementation
+🏪 Restaurant Discovery
 
-🎨 Responsive User Interface using HTML & CSS
+View a list of available restaurants
 
-#  Technologies Used
+Access restaurant-specific menus
+
+📋 Menu Browsing
+
+Display food items with details
+
+Category-based menu structure
+
+🛒 Cart Management
+
+Add items to cart
+
+Remove or update item quantities
+
+Persistent cart during session
+
+🧾 Order Processing
+
+Order summary before checkout
+
+Order placement and storage in database
+
+💾 Database Integration
+
+MySQL-based persistent storage
+
+JDBC used for database communication
+
+🧱 Clean Architecture
+
+DAO pattern for database abstraction
+
+MVC pattern for separation of concerns
+
+🎨 Responsive UI
+
+Built using HTML5 and CSS3
+
+Optimized for desktop and basic mobile views
+
+🛠️ Technology Stack
 Backend
 
-Java
+Java (Core Java)
 
 Java Servlets
 
 JDBC
 
 DAO Design Pattern
+
+MVC Architecture
 
 Frontend
 
@@ -47,92 +87,147 @@ MySQL
 
 Server
 
-Apache Tomcat
+Apache Tomcat (9+ recommended)
 
-# 🏗️ Project Architecture
+🏗️ Application Architecture
 
-The application follows the MVC (Model–View–Controller) architecture:
+The application follows a layered MVC architecture, ensuring scalability and maintainability.
 
-Model
-Java classes and DAO implementations responsible for database operations
+Model Layer
 
-View
-HTML and CSS pages for user interaction
+Java POJO classes
 
-Controller
-Servlets that handle client requests, business logic, and responses
+DAO interfaces and implementations
 
-This structure ensures:
+Handles all database interactions using JDBC
 
-Loose coupling
+View Layer
 
-Better maintainability
+HTML & CSS pages
 
-Easy scalability
+Responsible only for UI rendering
 
-# 🗂️ Modules
+No business logic embedded
+
+Controller Layer
+
+Java Servlets
+
+Handles HTTP requests and responses
+
+Controls application flow and business logic
+
+Architectural Benefits
+
+Loose coupling between components
+
+Easier debugging and testing
+
+Scalable for future features
+
+Industry-aligned structure
+
+🗂️ Application Modules
 
 User Authentication Module
 
+Registration
+
+Login
+
+Session handling
+
 Restaurant Management Module
+
+Fetch restaurant data
+
+Display restaurant listings
 
 Menu Management Module
 
+Fetch menu items
+
+Display restaurant-specific menus
+
 Cart Management Module
+
+Add/remove items
+
+Maintain cart state per user session
 
 Order Processing Module
 
-# 🗄️ Database Design
+Order confirmation
 
-MySQL is used for data persistence
+Order persistence in database
 
-Tables include:
+🗄️ Database Design
 
-Users
+The application uses MySQL for persistent storage.
 
-Restaurants
+Core Tables
 
-Menu Items
+users
 
-Cart
+restaurants
 
-Orders
+menu_items
 
-Database access is handled using JDBC with DAO pattern
+cart
 
-# 🔒 Security Considerations
+orders
 
-Session management for user authentication
+Database Access
 
-Input validation to prevent invalid data
+JDBC used for SQL operations
 
-Separation of database logic using DAO pattern
+DAO pattern isolates SQL logic from business logic
 
-# 🎯 Learning Outcomes
+Prepared statements used to avoid SQL injection
 
-Strong understanding of Java Web Development
+🔒 Security Considerations
 
-Hands-on experience with Servlets & JDBC
+Session-based authentication
 
-Practical use of DAO Design Pattern
+Input validation on server-side
 
-MySQL database integration
+DAO abstraction prevents direct database exposure
 
-End-to-end full stack application development
+Clear separation between UI and business logic
 
-# 🔮 Future Enhancements
+⚠️ Note: This is a learning-focused project. Advanced security mechanisms like password hashing and role-based access can be added in future iterations.
 
-Online Payment Gateway Integration
+🎯 Learning Outcomes
 
-Admin Dashboard for Restaurant Management
+By building this project, the following skills were developed:
 
-Order Tracking System
+Strong understanding of Java web application flow
 
-REST API Implementation
+Hands-on experience with Servlets and JDBC
 
-UI Enhancement using JavaScript / Bootstrap
+Practical implementation of DAO and MVC patterns
 
-# 👨‍💻 Developer
+MySQL database design and integration
+
+End-to-end full-stack Java development experience
+
+Deployment and testing on Apache Tomcat
+
+🔮 Future Enhancements
+
+💳 Online Payment Gateway Integration
+
+📊 Admin Dashboard for Restaurant Management
+
+🚚 Real-time Order Tracking System
+
+🌐 RESTful API Layer
+
+🎨 UI upgrade using JavaScript / Bootstrap
+
+🔐 Password hashing and role-based authorization
+
+👨‍💻 Developer
 
 Raju
 Full Stack Java Developer
