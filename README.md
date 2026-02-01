@@ -1,8 +1,8 @@
-🍽️ Food Delivery Application
+# 🍽️ Food Delivery Application
 
-A Full-Stack Java Web Application
+# A Full-Stack Java Web Application
 
-📌 Project Overview
+# 📌 Project Overview
 
 The Food Delivery Application is a full-stack Java web application designed to simulate a real-world online food ordering system. It enables users to discover restaurants, browse menus, manage a shopping cart, and place orders through a structured and scalable architecture.
 
@@ -10,27 +10,27 @@ The application is developed using Java Servlets, deployed on Apache Tomcat, and
 
 This project demonstrates practical backend development skills commonly expected in entry-level to mid-level Java developer roles.
 
-🚀 Key Features
+# 🚀 Key Features
 
-🔐 User Authentication
+# 🔐 User Authentication
 
 Secure user registration and login
 
 Session-based authentication
 
-🏪 Restaurant Discovery
+# 🏪 Restaurant Discovery
 
 View a list of available restaurants
 
 Access restaurant-specific menus
 
-📋 Menu Browsing
+# 📋 Menu Browsing
 
 Display food items with details
 
 Category-based menu structure
 
-🛒 Cart Management
+# 🛒 Cart Management
 
 Add items to cart
 
@@ -38,31 +38,31 @@ Remove or update item quantities
 
 Persistent cart during session
 
-🧾 Order Processing
+# 🧾 Order Processing
 
 Order summary before checkout
 
 Order placement and storage in database
 
-💾 Database Integration
+# 💾 Database Integration
 
 MySQL-based persistent storage
 
 JDBC used for database communication
 
-🧱 Clean Architecture
+# 🧱 Clean Architecture
 
 DAO pattern for database abstraction
 
 MVC pattern for separation of concerns
 
-🎨 Responsive UI
+# 🎨 Responsive UI
 
 Built using HTML5 and CSS3
 
 Optimized for desktop and basic mobile views
 
-🛠️ Technology Stack
+# 🛠️ Technology Stack
 Backend
 
 Java (Core Java)
@@ -89,7 +89,7 @@ Server
 
 Apache Tomcat (9+ recommended)
 
-🏗️ Application Architecture
+# 🏗️ Application Architecture
 
 The application follows a layered MVC architecture, ensuring scalability and maintainability.
 
@@ -127,7 +127,7 @@ Scalable for future features
 
 Industry-aligned structure
 
-🗂️ Application Modules
+# 🗂️ Application Modules
 
 User Authentication Module
 
@@ -161,7 +161,7 @@ Order confirmation
 
 Order persistence in database
 
-🗄️ Database Design
+# 🗄️ Database Design
 
 The application uses MySQL for persistent storage.
 
@@ -185,7 +185,7 @@ DAO pattern isolates SQL logic from business logic
 
 Prepared statements used to avoid SQL injection
 
-🔒 Security Considerations
+# 🔒 Security Considerations
 
 Session-based authentication
 
@@ -195,9 +195,9 @@ DAO abstraction prevents direct database exposure
 
 Clear separation between UI and business logic
 
-⚠️ Note: This is a learning-focused project. Advanced security mechanisms like password hashing and role-based access can be added in future iterations.
+# ⚠️ Note: This is a learning-focused project. Advanced security mechanisms like password hashing and role-based access can be added in future iterations.
 
-🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 By building this project, the following skills were developed:
 
@@ -213,21 +213,21 @@ End-to-end full-stack Java development experience
 
 Deployment and testing on Apache Tomcat
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
-💳 Online Payment Gateway Integration
+# 💳 Online Payment Gateway Integration
 
-📊 Admin Dashboard for Restaurant Management
+# 📊 Admin Dashboard for Restaurant Management
 
-🚚 Real-time Order Tracking System
+# 🚚 Real-time Order Tracking System
 
-🌐 RESTful API Layer
+# 🌐 RESTful API Layer
 
-🎨 UI upgrade using JavaScript / Bootstrap
+# 🎨 UI upgrade using JavaScript / Bootstrap
 
-🔐 Password hashing and role-based authorization
+# 🔐 Password hashing and role-based authorization
 
-👨‍💻 Developer
+# 👨‍💻 Developer
 
 Raju
 Full Stack Java Developer
